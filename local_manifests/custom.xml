@@ -11,8 +11,8 @@
 
   <project path="device/htc/inc" name="android_device_htc_inc" remote="lce67" revision="cm-10.2" />
   <project path="vendor/htc/inc" name="android_vendor_htc_inc" remote="lce67" revision="cm-10.2" />
+  <project path="kernel/htc/inc" name="android_kernel_htc_inc" remote="lce67" revision="cm-10.2" />
 
-  <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="ev" revision="jellybean-4.3" />
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean-4.3" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean-4.3" />
   <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="ev" revision="jellybean-4.3" />
