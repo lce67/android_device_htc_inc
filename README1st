@@ -6,6 +6,8 @@ mkdir ~/CM10.2/.repo/local_manifests
 cd ~/CM10.2/.repo/local_manifests
 wget https://raw.github.com/lce67/android_device_htc_inc/cm-10.2/local_manifests/custom.xml
 
+## Then repo sync to get hardware and device files
+
 ## List of reverts used...this is required to build
 
 cd ~/CM10.2/hardware/qcom/display-legacy
