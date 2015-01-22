@@ -6,13 +6,8 @@ mkdir ~/CM10.2/.repo/local_manifests
 cd ~/CM10.2/.repo/local_manifests
 wget https://raw.github.com/lce67/android_device_htc_inc/cm-10.2/local_manifests/custom.xml
 
-## List of cherry-picks/reverts used. the first two are required to build
-##Fix breakage due to CM revert part 1
-##http://review.cyanogenmod.org/#/c/33305
-cd ~/CM10.2/frameworks/native
-git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_native refs/changes/05/33305/1 && git cherry-pick FETCH_HEAD
+## List of reverts used...this is required to build
 
-##Fix breakage due to CM revert part 2
 cd ~/CM10.2/hardware/qcom/display-legacy
 git revert b4331823c
 
