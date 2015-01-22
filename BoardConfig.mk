@@ -70,9 +70,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Try to build the kernel
 BUILD_KERNEL := true
 # Kernel directory
-TARGET_KERNEL_SOURCE := kernel/htc/qsd8k
+TARGET_KERNEL_SOURCE := kernel/htc/inc
 # Custom Kernel Config
-TARGET_KERNEL_CONFIG := $(ANDROID_BUILD_TOP)/device/htc/inc/kernel-config/cm_inc_defconfig
+TARGET_KERNEL_CONFIG := cm_inc_defconfig
 # Use GCC 4.7 toolchain
 KERNEL_TOOLCHAIN_PREFIX := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi-
 
